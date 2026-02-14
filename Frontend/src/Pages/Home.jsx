@@ -4,6 +4,7 @@ import GenderCollections from '../Components/Products/GenderCollections'
 import NewArrivals from '../Components/Products/NewArrivals'
 import ProductDetails from '../Components/Products/ProductDetails'
 import ProductGrid from '../Components/Products/ProductGrid'
+import FeaturedCollection from '../Components/Products/FeaturedCollection'
 
 const placeHolderProducts = [
     {
@@ -70,6 +71,7 @@ const Home = () => {
           <h2 className="text-3xl text-center font-bold mb-4">Top Wears for Women</h2>
           <ProductGrid products={placeHolderProducts} />
         </div>
+        <FeaturedCollection/>
     </div>
   )
 }
